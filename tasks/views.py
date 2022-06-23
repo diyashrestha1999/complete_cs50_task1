@@ -27,3 +27,5 @@ def add(request):
 #automatically redirects to task list page
             return HttpResponseRedirect(reverse("task:index"))
     return render(request,"tasks/add.html",{"diya_form":NewTaskForm()})
+
+    #my name is diya
